@@ -82,6 +82,30 @@ function runRobot(){
   "Railway Track Safe 🚆";
 }
 </script>
+<br><br>
 
+<button onclick="trainStatus()">
+🚆 Train Status
+</button>
+
+<br><br>
+
+<button onclick="dangerAlert()">
+⚠️ Danger Alert
+</button>
+
+<script>
+
+function trainStatus(){
+document.getElementById("status").innerHTML =
+"Train Running On Time ✅";
+}
+
+function dangerAlert(){
+document.getElementById("status").innerHTML =
+"Obstacle Detected ⚠️";
+}
+
+</script>
 </body>
   </html>
